@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/wallpaper2.jpg);
+    /*Evitar que la imagen se repita*/
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 65%;
+    margin-top: 15%;
+    
+}
+
+main section {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form div {
+    color: red;
+}
+
+form label{
+    margin-right: 55%;
+    font-size: 25px;
+}
+
+form input{
+    margin-bottom: 2%;
+    width: 60%;
+    height: 55%;
+    border-radius: 5px;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Play', sans-serif;
+}
+
+form button {
+    margin-top: 5%;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    background-color: #77827C;
+    color:white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+}
+
+form img {
+    height: 62px;
+    margin-bottom: 3%;
+}
