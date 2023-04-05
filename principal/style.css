@@ -1,7 +1,11 @@
 body{
     background-image: url(../img/wallpaper2.jpg);
-    /*Evitar que la imagen se repita*/
-    background-size: cover;
+    /*Poner el 100% de la imagen en toda la pantalla*/
+    background-size: 100% 100%;
+    /*Que no se repita la imagen*/
+    background-repeat: no-repeat;
+    /*imagen fija y siempre se forzará a mostrar el mismo tamaño*/
+    background-attachment: fixed;
     font-family: 'Play', sans-serif;
 }
 
@@ -66,3 +70,32 @@ header {
     border: none;
     background: none;
   }
+
+  @media screen and (max-width: 1136px) {
+    .section-accion div  {
+        margin: 5px 20%
+    }
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    .section-accion{
+        padding-top: 20%;
+    } 
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .section-accion{
+        padding-top: 30%;
+    } 
+
+  }
+
+  @media screen and (max-width: 650px) {
+    .section-accion{
+        padding-top: 40%;
+    } 
+
+  }
+ 

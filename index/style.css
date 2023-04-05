@@ -1,7 +1,11 @@
 body{
     background-image: url(../img/wallpaper2.jpg);
-    /*Evitar que la imagen se repita*/
-    background-size: cover;
+   /*Poner el 100% de la imagen en toda la pantalla*/
+   background-size: 100% 100%;
+   /*Que no se repita la imagen*/
+   background-repeat: no-repeat;
+   /*imagen fija y siempre se forzará a mostrar el mismo tamaño*/
+   background-attachment: fixed;
     font-family: 'Play', sans-serif;
 }
 
@@ -9,6 +13,11 @@ header {
     text-align: center;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 footer p {
     text-align: center;
     font-size: 65%;
@@ -73,4 +82,25 @@ form button {
 form img {
     height: 62px;
     margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1300px) {
+    main section{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    main section{
+        margin-top: 30%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    main section{
+        margin-top: 50%;
+    }
+
 }
